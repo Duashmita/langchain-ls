@@ -1,0 +1,32 @@
+{
+  "name": "langchain-ls",
+  "version": "1.0.0",
+  "description": "MadLibs Generator, Input: User, Output: .mkd filetype",
+  "keywords": [
+    "madlibs",
+    "genai",
+    "gemini",
+    "langchain"
+  ],
+  "homepage": "https://github.com/Duashmita/langchain-ls#readme",
+  "bugs": {
+    "url": "https://github.com/Duashmita/langchain-ls/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duashmita/langchain-ls.git"
+  },
+  "license": "MIT",
+  "author": "Ashmita Dua",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.0.1",
+    "@langchain/google-genai": "^1.0.0",
+    "langchain": "^1.0.1",
+    "dotenv": "^17.2.3"
+  }
+}
